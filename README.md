@@ -9,7 +9,7 @@ Flight
 
 Speed
 
-Scaffold
+Scaffold (AirPlace / Timing / other stuff)
 
 Exploit
 
