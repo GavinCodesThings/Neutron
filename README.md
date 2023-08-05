@@ -22,6 +22,8 @@ Scaffold Wise: Not determined what exploit checks will be added yet
 This anti-cheat requires ProtocolLib 5.0 to run.
 
 ## Checks the anti-cheat will have when released (most likely)
+Combat (Killaura / AutoClicker / Reach / AimAssist)
+
 Flight
 
 Speed
