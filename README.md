@@ -7,11 +7,7 @@ This anti-cheat requires ProtocolLib 5.0 to run.
 ## Checks the anti-cheat will have when released (most likely)
 Combat (Killaura / AutoClicker / Reach / AimAssist)
 
-Flight
-
-Speed
-
-Scaffold (AirPlace / Timing / other stuff)
+Movement (Flight / Speed / LiquidWalk / Phase / Step / Clip (Vertical))
 
 Exploit (SelfHit)
 
@@ -19,4 +15,4 @@ BadPackets
 
 BlockBreak (BedBreaker / FastBreak)
 
-BlockPlace (AutoPlace / FastPlace)
+BlockPlace (AutoPlace / FastPlace / Scaffold)
