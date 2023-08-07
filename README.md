@@ -13,12 +13,10 @@ Speed
 
 Scaffold (AirPlace / Timing / other stuff)
 
-Exploit
+Exploit (SelfHit)
 
 BadPackets
 
 BlockBreak (BedBreaker / FastBreak)
 
 BlockPlace (AutoPlace / FastPlace)
-
-InvalidPackets (SelfHit / other stuff)
