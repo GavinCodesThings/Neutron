@@ -8,7 +8,7 @@ Neutron is also made to beat other anticheats in terms of pricing. It will be 10
 
 Neutron has max speed data for almost every movement you can do (sprinting, blocking etc.)
 
-However, Neutron is NOT a simulation based anticheats.
+However, Neutron is NOT a simulation based anticheat.
 
 ## Notes:
 This anti-cheat requires ProtocolLib 5.0 to run.
