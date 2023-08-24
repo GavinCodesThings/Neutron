@@ -4,7 +4,7 @@ Neutron is an advanced anti-cheat solution for Minecraft Java Edition (1.8.8) Bu
 ## Very cool things we offer
 Neutron is almost fully packet based, meaning it monitors every packet going from the player's client to the server.
 
-Neutron also has movement data for most types of movement (walking, sprinting, blocking, swimming, etc.), making it way more difficult to bypass than other anti-cheats.
+Neutron also has movement data for most types of movement (walking, sprinting, blocking, swimming, etc.), making it way more difficult to bypass than other anti-cheats. Some checks are also prediction based.
 
 Neutron is going to be 10 USD when it is released, where people will most likely be able to afford it.
 
