@@ -45,3 +45,6 @@ Player - Timer (A) (Prevents players from speeding up their game)
 Combat - Velocity (A, B) (Prevents players from reducing their knockback using velocity)
 
 Combat - Reach (A) (Does raycasting stuff to make sure players dont extend their reach)
+
+## Progress
+Gathering data for prediction checks
