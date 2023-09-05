@@ -1,18 +1,12 @@
 # Neutron
 Neutron is an advanced anti-cheat solution for Minecraft Java Edition (1.8.8) Bukkit servers. This repository is made in specific for reporting bypasses and bugs, you can do so by creating an issue.
 
-## Neutron has been made private, you will have to contact me to have it made specifically for your server. My discord is "te1amon".
+## Neutron has been made private, you will have to contact me to have it made specifically for your server. My discord is "te1amon". Prices range from $10-$30 USD
 
 ## Very cool things we offer
 Neutron is almost fully packet based, meaning it monitors every packet going from the player's client to the server.
 
-Neutron also has movement data for most types of movement (walking, sprinting, blocking, swimming, etc.), making it way more difficult to bypass than other anti-cheats. Some checks are also prediction based.
-
-Neutron is going to be 10 USD when it is released, where people will most likely be able to afford it.
-
-Neutron is designed to account for ghost blocks (ex: if you jump on a ghost block after you place it and it disappears, you won't flag).
-
-Last but not least, it lets you know the client brand of a player when they join
+Neutron also has movement data for most types of movement (walking, sprinting, blocking, swimming, etc.), making it way more difficult to bypass than other anti-cheats. However, this Anticheat does not have prediction checks.
 
 ## Things to remember
 Neutron requires you to have ProtocolLib in the server's "plugins" folder.
@@ -20,33 +14,25 @@ Neutron requires you to have ProtocolLib in the server's "plugins" folder.
 People who do not send transactions within a certain time frame will be kicked.
 
 ## Checks that will prob be added
-Movement - Speed (A) (Prevents players from using any modules that increase their speed)
+Movement - Move (A, B, C, D, E, F, G, H, I, J, K)
 
-Movement - Flight (A, B) (Prevents players from using any modules that will allow them to fly)
+Exploit - Post (A)
 
-Movement - NoSlow (A, B) (Makes sure that players slow down when they block their sword)
+Exploit - InvalidPackets (A, B, C, more coming soon xd)
 
-Packet - Post (A) (Prevents players from sending different packets after a movement in one tick)
+Exploit - GroundSpoof (A) (NOTE: This detects NoFall too)
 
-Packet - InvalidPackets (A, B, C, more coming soon xd) (Prevents players from sending bad packets)
+Combat - Killaura (A, B)
 
-Packet - InvalidMovement (A) (Prevents players from moving WAY too fast using one packet)
+Player - Scaffold (A, B, C, D, E)
 
-Packet - GroundSpoof (A) (Prevents players from spoofing their packet's onGround to true)
+Player - BedBreaker (A)
 
-Player - NoFall (A, B) (Makes sure that players get fall damage after falling 3 or more blocks down)
+Player - Timer (A)
 
-Combat - Killaura (A, B) (Prevents players from using the Killaura/Aura module)
+Combat - Velocity (A, B) 
 
-Player - Scaffold (A, B, C, D) (Prevents players from using modules to automatically bridge)
-
-Player - BedBreaker (A) (Prevents players from breaking beds through blocks)
-
-Player - Timer (A) (Prevents players from speeding up their game)
-
-Combat - Velocity (A, B) (Prevents players from reducing their knockback using velocity)
-
-Combat - Reach (A) (Does raycasting stuff to make sure players dont extend their reach)
+Combat - Reach (A)
 
 ## Progress
-Gathering data for prediction checks
+Working on Move and Timer checks
