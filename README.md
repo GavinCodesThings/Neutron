@@ -1,38 +1,17 @@
 # Neutron
-Neutron is an advanced anti-cheat solution for Minecraft Java Edition (1.8.8) Bukkit servers. This repository is made in specific for reporting bypasses and bugs, you can do so by creating an issue.
+Neutron is a (almost) fully packet based advanced anti-cheat solution for Minecraft Java Edition.
 
-## Neutron has been made private, you will have to contact me to have it made specifically for your server. My discord is "te1amon". Prices range from $10-$30 USD
+## Things to know before doing anything
+This anti-cheat is made in specific for 1.8.8 Spigot Bukkit Servers, but more server types may be available in the future.
 
-## Very cool things we offer
-Neutron is almost fully packet based, meaning it monitors every packet going from the player's client to the server.
+It requires you to have ProtocolLib 5.1.0 or higher installed on your server, check out https://github.com/dmulloy2/ProtocolLib/ for more information.
 
-Neutron also has movement data for most types of movement (walking, sprinting, blocking, swimming, etc.), making it way more difficult to bypass than other anti-cheats. However, this Anticheat does not have prediction checks.
+## What makes this anti-cheat better than others?
 
-## Things to remember
-Neutron requires you to have ProtocolLib in the server's "plugins" folder.
+Neutron is a completely open source anti-cheat, and will always be free to modify or download.
 
-People who do not send transactions within a certain time frame will be kicked.
+Neutron is also packet based, meaning it can detect exploits on the packet level.
 
-## Checks that will prob be added
-Movement - Move (A, B, C, D, E, F, G, H, I, J, K)
+Our anti-cheat solution also accounts for players with high ping, meaning it won't flag legit players that have high ping. However, if a player does not send transactions within a certain time frame, they will be kicked.
 
-Exploit - Post (A)
-
-Exploit - InvalidPackets (A, B, C, more coming soon xd)
-
-Exploit - GroundSpoof (A) (NOTE: This detects NoFall too)
-
-Combat - Killaura (A, B)
-
-Player - Scaffold (A, B, C, D, E)
-
-Player - BedBreaker (A)
-
-Player - Timer (A)
-
-Combat - Velocity (A, B) 
-
-Combat - Reach (A)
-
-## Progress
-Working on Move and Timer checks
+## More on this page will be added soon.
