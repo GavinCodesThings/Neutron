@@ -14,4 +14,17 @@ Neutron is also packet based, meaning it can detect exploits on the packet level
 
 Our anti-cheat solution also accounts for players with high ping, meaning it won't flag legit players that have high ping. However, if a player does not send transactions within a certain time frame, they will be kicked.
 
-## More on this page will be added soon.
+## What checks will/does Neutron have? (More coming soon)
+Combat - Aim (A, B, C, D, E)
+
+Combat - AutoBlock (A, B, C)
+
+Combat - AutoClicker (A)
+
+Movement - Move (A, B, C, D, E, F, G)
+
+Player - Scaffold (A)
+
+Packet - BadPackets (A)
+
+
