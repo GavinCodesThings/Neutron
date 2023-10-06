@@ -12,19 +12,56 @@ Neutron is a completely open source anti-cheat, and will always be free to modif
 
 Neutron is also packet based, meaning it can detect exploits on the packet level.
 
-Our anti-cheat solution also accounts for players with high ping, meaning it won't flag legit players that have high ping. However, if a player does not send transactions within a certain time frame, they will be kicked.
+Our anti-cheat solution also accounts for players with high ping (in most cases), meaning it won't flag legit players that have high ping.
 
 ## What checks will/does Neutron have? (More coming soon)
-Combat - Aim (A, B, C, D, E)
+### Combat - Aim
+Aim (A) (Constant Aim Speed)
 
-Combat - AutoBlock (A, B, C)
+Aim (B) (Fast Aim Speed)
 
-Combat - AutoClicker (A)
+Aim (C) (Duplicate Aim)
 
-Movement - Move (A, B, C, D, E, F, G)
+Aim (D) (Modulo 360)
 
-Player - Scaffold (A)
+### Combat - AutoBlock
+AutoBlock (A) (Block Attack)
 
-Packet - BadPackets (A)
+AutoBlock (B) (No Unblock)
 
+AutoBlock (C) (Range)
+
+### Combat - AutoClicker
+AutoClicker (A) (Constant CPS)
+
+### Combat - Velocity
+Velocity (A) (Entity Velocity)
+
+### Combat - Reach
+Reach (A) (Raycast)
+
+### Movement - Move
+Move (A) (Horizontal Movement | ex: Speed, NoSlow, Sneak, etc.)
+
+Move (B) (Vertical Movement | Prediction | ex: Flight, HighJump etc.)
+
+Move (C) (OmniSprint)
+
+Move (D) (Inventory Move)
+
+Move (E) (Phase)
+
+Move (F) (Buffer Abuse)
+
+Move (G) (Step)
+
+### Player - Scaffold
+Scaffold (A) (Invalid Sprint)
+
+Scaffold (B) (Raycast)
+
+### Player - Timer
+Timer (A) (Balance)
+
+Timer (B) (More Packets)
 
